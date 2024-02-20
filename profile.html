@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        /* CSS styles for the profile */
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .profile-info {
+            max-width: 600px;
+            text-align: left;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            background-color: #f8f8f8;
+        }
+
+        .profile-info h2 {
+            color: #333;
+        }
+
+        .profile-info p {
+            margin-bottom: 20px;
+        }
+
+        .profile-info ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="./home.html">&lt;&lt; Back </a>
+    </nav>
+
+    <div class="profile">
+        <div class="profile-info">
+            <h2>My Profile</h2>
+            <p>Hi there, I'm Vincent Giacalone. Here are just a few things to know about me:</p>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Problem Solving</li>
+            </ul>
+
+            <h3>Interests</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Video Games</li>
+                <li>Reading</li>
+                <li>Music</li>
+                <li>Hammocking</li>
+            </ul>
+
+            <button id="color" class="favorite-button">My Favorite Color</button>
+            <button id="place" class="favorite-button">My Favorite Place</button>
+            <button id="ritual" class="favorite-button">My Favorite Ritual</button>
+
+            <h3>Career Goals</h3>
+            <p>I aspire to become a skilled cyber security engineer and contribute to innovative projects that make a positive impact on people's lives. I'm also interested in exploring opportunities in programming!</p>
+        </div>
+    </div>
+
+    <script src="profile.js"></script>
+
+</body>
+</html>
+
+<a href="./home.html"><< Back </a>
